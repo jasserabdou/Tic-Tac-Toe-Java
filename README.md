@@ -6,9 +6,6 @@
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [How to Play](#how-to-play)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
@@ -34,16 +31,3 @@ To run this game, you will need a Java Development Kit (JDK) installed on your s
 1. Launch the game.
 2. Two players take turns clicking on the empty squares to make their moves.
 3. The game will automatically determine the winner or a draw.
-
-## Screenshots
-
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-
-## Contributing
-
-If you'd like to contribute, please fork the repository and create a pull request. You can also open issues for bugs or feature requests.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
