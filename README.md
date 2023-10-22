@@ -15,7 +15,7 @@ This is a simple implementation of the classic Tic-Tac-Toe game in Java using Sw
 
 - GUI-based Tic-Tac-Toe game.
 - Player turns are indicated in the UI.
-- Detects a win or a draw and displays the result.
+- Detects a win and displays the result.
 - Highlights the winning combination.
 
 ## Getting Started
