@@ -1,33 +1,45 @@
 # Tic-Tac-Toe Game
 
-## Table of Contents
-
-- [Description](#description)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [How to Play](#how-to-play)
-
-## Description
-
-This is a simple implementation of the classic Tic-Tac-Toe game in Java using Swing. It allows two players to take turns and determines the winner based on the traditional rules of the game.
-
-## Features
-
-- GUI-based Tic-Tac-Toe game.
-- Player turns are indicated in the UI.
-- Detects a win and displays the result.
-- Highlights the winning combination.
+This is a simple Java program that implements a two-player Tic-Tac-Toe game using Swing GUI components.
 
 ## Getting Started
 
-To run this game, you will need a Java Development Kit (JDK) installed on your system.
+### Prerequisites
 
-1. Clone or download the repository to your local machine.
-2. Open the project in your favorite Java IDE.
-3. Run the `TicTacToe.java` file.
+To run this program, you need to have Java installed on your system.
+
+### Running the Program
+
+1. Compile the Java file `TicTacToe.java`.
+   ```
+   javac TicTacToe.java
+   ```
+
+2. Run the compiled program.
+   ```
+   java TicTacToe
+   ```
 
 ## How to Play
 
-1. Launch the game.
-2. Two players take turns clicking on the empty squares to make their moves.
-3. The game will automatically determine the winner or a draw.
+- The game is played on a 3x3 grid.
+- Players take turns to place their marker (X or O) on an empty cell.
+- The first player to get three of their markers in a row (horizontally, vertically, or diagonally) wins the game.
+- If all cells are filled and no player has won, the game is declared a draw.
+
+## Controls
+
+- Click on an empty cell to place your marker.
+
+## Features
+
+- Randomly determines which player goes first.
+- Provides feedback on whose turn it is.
+- Detects and displays the winner or a draw.
+- Allows players to start a new game after completion.
+
+## Code Structure
+
+- The program is organized using classes and methods for better readability and maintainability.
+- GUI components like JFrame, JPanel, and JButton are used to create the game interface.
+- Event handling is done using ActionListener interface for button clicks.
