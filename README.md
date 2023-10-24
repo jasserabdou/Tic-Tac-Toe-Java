@@ -1,6 +1,6 @@
 # Tic-Tac-Toe Game
 
-This is a simple Java program that implements a two-player Tic-Tac-Toe game using Swing GUI components.
+This is a Java program that implements a two-player Tic-Tac-Toe game using Swing GUI components.
 
 ## Getting Started
 
